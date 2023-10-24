@@ -1,5 +1,6 @@
 # URL-VideoDownloader-Console
 The video downloader is a console application built in Python. It allows you to download YouTube videos and other videos with correct URL-links to the user's system.
+
 ## Installation
 1. Clone the repository.
 2. Go to the project directory.
@@ -7,7 +8,7 @@ The video downloader is a console application built in Python. It allows you to 
  ```bash
    python -m venv venv
 ```
-5. Activate the virtual environment:
+4. Activate the virtual environment:
 ### Windows:
 ```bash
    env\Scripts\activate
@@ -16,7 +17,7 @@ The video downloader is a console application built in Python. It allows you to 
 ```bash
    source env/bin/activate
 ```
-6. Install dependencies:
+5. Install dependencies:
  ```bash
    pip install -r requirements.txt
 ```
@@ -25,8 +26,8 @@ The video downloader is a console application built in Python. It allows you to 
  ```bash
    python main.py
  ```
-3. Enter the directory path where you want to save the video and the URL of the video you want to download.
-4. The script will check the entered data and start downloading the video.
+2. Enter the directory path where you want to save the video and the URL of the video you want to download.
+3. The script will check the entered data and start downloading the video.
    
 ## Notes
 To download a video from YouTube, you must enter the correct video URL. The script will automatically detect whether the URL is a video from YouTube or another source.
